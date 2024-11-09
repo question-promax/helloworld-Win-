@@ -1,3 +1,0 @@
-C:/Users/30286/Desktop/helloworld(Win)/build/CMakeFiles/helloworld.dir
-C:/Users/30286/Desktop/helloworld(Win)/build/CMakeFiles/edit_cache.dir
-C:/Users/30286/Desktop/helloworld(Win)/build/CMakeFiles/rebuild_cache.dir

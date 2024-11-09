@@ -14,7 +14,6 @@ int main()
     }
  
     cout << m << endl;
-    cout << p << endl;
 
     return 0;
 }
