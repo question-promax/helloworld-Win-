@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/30286/Desktop/helloworld(Win)/build",
+  "command": "D:\\source\\source\\mingw\\bin\\g++.exe   -g -o CMakeFiles\\helloworld.dir\\src\\helloworld.cpp.obj -c C:\\Users\\30286\\Desktop\\helloworld(Win)\\src\\helloworld.cpp",
+  "file": "C:/Users/30286/Desktop/helloworld(Win)/src/helloworld.cpp",
+  "output": "CMakeFiles/helloworld.dir/src/helloworld.cpp.obj"
+}
+]
