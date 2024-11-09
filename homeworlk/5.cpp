@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int sum(int x) {
-    int sum = 0;
-    while (x!= 0) {
-        sum += x % 10;
-        x /= 10;
+int fac(int n) {
+    int sum = 1;
+    while (n!= 0) {
+        sum =sum*n;
+        --n;
     }
     return sum;
 }
@@ -12,7 +12,7 @@ int sum(int x) {
 int main() {
     int n;
     scanf("%d", &n);
-    int result = sum(n);
+    int result = fac(n);
     printf("%d\n", result);
     return 0;
 }
