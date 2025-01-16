@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\30286\Desktop\helloworld(Win)
+CMAKE_SOURCE_DIR = C:\Users\30286\Desktop\helloworld
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\30286\Desktop\helloworld(Win)\build
+CMAKE_BINARY_DIR = C:\Users\30286\Desktop\helloworld\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\30286\Desktop\helloworld(Win)\build\CMakeFiles C:\Users\30286\Desktop\helloworld(Win)\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\30286\Desktop\helloworld\build\CMakeFiles C:\Users\30286\Desktop\helloworld\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\30286\Desktop\helloworld(Win)\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\30286\Desktop\helloworld\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ helloworld/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
-src/helloworld.obj: src/helloworld.cpp.obj
-.PHONY : src/helloworld.obj
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-src/helloworld.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/src/helloworld.cpp.obj
-.PHONY : src/helloworld.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-src/helloworld.i: src/helloworld.cpp.i
-.PHONY : src/helloworld.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/helloworld.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/src/helloworld.cpp.i
-.PHONY : src/helloworld.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/helloworld.s: src/helloworld.cpp.s
-.PHONY : src/helloworld.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/helloworld.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/src/helloworld.cpp.s
-.PHONY : src/helloworld.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... helloworld
-	@echo ... src/helloworld.obj
-	@echo ... src/helloworld.i
-	@echo ... src/helloworld.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
